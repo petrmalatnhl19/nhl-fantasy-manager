@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fantasy Hockey Manager Dashboard</title>
+<style>
+body{margin:0;background:#0b1020;color:#eef3ff;font-family:Arial,sans-serif;line-height:1.6}
+header,main,footer{max-width:1000px;margin:auto;padding:24px}
+header{font-weight:bold;border-bottom:1px solid #2a3653}
+header span{color:#9384ff}
+.hero{padding:55px 0}
+.tag{color:#c9c1ff;background:#242044;padding:8px 12px;border-radius:20px;font-size:13px}
+h1{font-size:clamp(36px,7vw,64px);line-height:1.1}
+.lead{color:#b4bfd8;font-size:19px;max-width:700px}
+.notice,.card{background:#141d32;border:1px solid #2a3653;border-radius:14px;padding:20px}
+.notice{border-left:4px solid #9384ff;margin-top:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.card h3{margin-bottom:5px}
+.card p,.muted{color:#b4bfd8}
+h2{margin-top:40px}
+footer{border-top:1px solid #2a3653;color:#b4bfd8;font-size:14px;margin-top:40px}
+</style>
+</head>
+<body>
+<header>FANTASY <span>HOCKEY</span> MANAGER</header>
+<main>
+<section class="hero">
+<span class="tag">PERSONAL PROJECT · IN DEVELOPMENT</span>
+<h1>Your fantasy league.<br>One clear dashboard.</h1>
+<p class="lead">A personal web application concept for viewing and analyzing a Yahoo Fantasy Hockey league in one place.</p>
+<div class="notice"><strong>Project status:</strong> Early-stage project. The application is not yet connected to Yahoo Fantasy and does not currently display live league data.</div>
+</section>
+<h2>Planned features</h2>
+<div class="grid">
+<div class="card"><h3>🏆 League standings</h3><p>Team rankings, records and league information.</p></div>
+<div class="card"><h3>⚔️ Weekly matchups</h3><p>Head-to-head matchups and category progress where available.</p></div>
+<div class="card"><h3>🏒 Team rosters</h3><p>Active players, bench players, positions and roster information.</p></div>
+<div class="card"><h3>🔎 Free agents & waivers</h3><p>Available players, statistics and player comparisons.</p></div>
+<div class="card"><h3>📊 Player analytics</h3><p>Goals, assists, shots, hits, blocks and other supported statistics.</p></div>
+<div class="card"><h3>📅 NHL schedule</h3><p>Upcoming games to help plan fantasy roster decisions.</p></div>
+</div>
+<h2>How it is intended to work</h2>
+<div class="card">
+<p><strong>1. Official API:</strong> The project intends to use the official Yahoo Fantasy Sports API, subject to approval and available permissions.</p>
+<p><strong>2. Read-only access:</strong> All roster changes and league actions will continue to be performed directly on Yahoo Fantasy. This application is intended to retrieve and display permitted data.</p>
+<p><strong>3. Personal use:</strong> The initial scope is one user and one Yahoo Fantasy Hockey league.</p>
+</div>
+<h2>Project scope</h2>
+<p class="muted">This is an independent personal project and is not affiliated with or endorsed by Yahoo or the National Hockey League. Access to Yahoo Fantasy data depends on API approval, permissions and applicable terms. No live data or Yahoo account connection is available on this page.</p>
+</main>
+<footer>Fantasy Hockey Manager Dashboard · Personal project · In development</footer>
+</body>
+</html>
